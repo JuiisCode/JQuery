@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        // $("#demo").html("Hello, jQuery!".) //.html() method to change its content to "Hello, jQuery!".
+        $("button").click(function () {
+          $("#demo").hide();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Id Selectors</h1>
+    <div id="demo">
+      <ul>
+        - id selector is used the id attribute to select an element.<br />
+        - to finding element # character is used for the id selector.<br />
+        - The name of id(demo) is used by # characetr in $("#demo").
+      </ul>
+    </div>
+    <button>Hide element using id selector</button>
+  </body>
+</html>
